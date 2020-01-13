@@ -22,3 +22,6 @@ default command is "./build.sh " in root dir.
 docker run -v ${ws}:/project centos-go:1.13
 
 ```
+
+
+### build
