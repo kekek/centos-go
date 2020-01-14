@@ -19,7 +19,7 @@ docker push ${tag}
 default command is "./build.sh " in root dir.
 
 ```
-docker run -v ${ws}:/project centos-go:1.13
+docker run -v $(pwd):/project centos-go:1.13
 
 ```
 
